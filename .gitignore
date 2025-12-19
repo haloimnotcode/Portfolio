@@ -1,0 +1,16 @@
+# Resume and Certificates (using external links now)
+assets/resume/
+assets/certifications/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local

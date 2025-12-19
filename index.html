@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Gerard Donaire</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <section class="profile-section">
+            <div class="profile-container">
+                <!-- Profile Image -->
+                <div class="profile-image-wrapper">
+                    <img src="assets/img/profile-light.jpg" alt="John Gerard Donaire" class="profile-image" id="profileImage">
+                </div>
+
+                <!-- Profile Info -->
+                <div class="profile-info">
+                    <div class="profile-header">
+                        <h1 class="profile-name">John Gerard Donaire</h1>
+                        <!-- Theme Toggle -->
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                            <div class="toggle-slider">
+                                <i class="fas fa-sun theme-icon"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <p class="profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Cebu City, Philippines
+                    </p>
+                    <p class="profile-role">Aspiring Web Developer</p>
+
+                    <!-- Action Buttons -->
+                    <div class="action-buttons">
+                        <a href="https://drive.google.com/file/d/1ew8hpoEDRlEsadW9HQ8jZewCS8HwgW0D/view?usp=sharing" class="btn btn-outline" target="_blank">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Resume</span>
+                        </a>
+                        <a href="mailto:johngerarddonaire6@gmail.com" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i>
+                            <span>Send Email</span>
+                        </a>
+                        <a href="https://github.com/haloimnotcode" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-user"></i>
+                    About
+                </h2>
+            </div>
+            <div class="about-content">
+                <p>
+                    I am a graduating BSIT student at CIT-University with a strong interest in web development. I work on 
+                    building secure, user-centered applications using Spring Boot (Java), Django (Python), JavaScript, React, 
+                    HTML, and CSS technologies. I enjoy transforming ideas into functional and efficient digital solutions through 
+                    clean and maintainable code.
+                </p>
+                <p>
+                    Throughout my academic journey, I've taken on various roles in multiple projects, including serving as 
+                    Project Lead for systems such as an AI-powered collaborative matching platform for capstone students, an employee 
+                    activity tracking app, and a social gym and workout logger. These experiences strengthened my skills in 
+                    project planning, teamwork, version control, and full-stack implementation, as well as my ability to document 
+                    technical processes clearly.
+                </p>
+                <p>
+                    Beyond technical skills, I value continuous learning, collaboration, and adaptability. I am passionate about 
+                    using technology to solve real-world problems and improve everyday processes. I aim to continuously grow 
+                    as a developer while contributing to innovative teams where I can apply my skills, learn from experienced 
+                    professionals, and make a meaningful impact.
+                </p>
+            </div>
+        </section>
+
+        <!-- Tech Stack & Education Grid -->
+        <div class="grid-container">
+            <!-- Tech Stack Section -->
+            <section class="tech-stack-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i class="fas fa-code"></i>
+                        Tech Stack
+                    </h2>
+                    <a href="techstack.html" class="view-all">
+                        <span>View All</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="tech-content">
+                    <div class="tech-category">
+                        <h3 class="tech-category-title">Frontend</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">
+                                <i class="fab fa-js"></i>
+                                JavaScript
+                            </span>
+                            <span class="tech-tag">
+                                <i class="fab fa-react"></i>
+                                React
+                            </span>
+                            <span class="tech-tag">
+                                <i class="fab fa-html5"></i>
+                                HTML
+                            </span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <h3 class="tech-category-title">Backend</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">
+                                <i class="fab fa-java"></i>
+                                Java
+                            </span>
+                            <span class="tech-tag">
+                                <i class="fab fa-python"></i>
+                                Python
+                            </span>
+                            <span class="tech-tag">
+                                <i class="fas fa-leaf"></i>
+                                Spring Boot
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="education-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        Education
+                    </h2>
+                </div>
+                <div class="education-content">
+                    <div class="education-item">
+                        <h3 class="education-school">CIT - University</h3>
+                        <p class="education-degree">BS Information Technology</p>
+                        <p class="education-graduation">Expected Graduation: May 2026</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Projects Section -->
+        <section class="projects-section">
+            <div class="projects-content">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Projects
+                    </h2>
+                    <a href="projects.html" class="view-all">
+                        <span>View All</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="project-cards-wrapper">
+                    <div class="project-card">
+                        <h3 class="project-title">CapstoneConnect - Team Formation with AI</h3>
+                        <p class="project-description">
+                            AI-powered platform that simplifies capstone team formation by analyzing roles, skills, interests, and personality traits.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://capstoneconnect.netlify.app" target="_blank" class="project-link">capstoneconnect.netlify.app</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3 class="project-title">Liams Activity Log System</h3>
+                        <p class="project-description">
+                            Employee activity logger and leave management system with feedback and streamlined approval workflows.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/haloimnotcode/IT342-G3-CapstoneConnect.git" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Social Links Grid -->
+        <div class="bottom-grid">
+            <!-- Recent Certifications Section -->
+            <section class="certifications-section">
+                <div class="certifications-content">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            <i class="fas fa-certificate"></i>
+                            Recent Certifications
+                        </h2>
+                    </div>
+                    <a href="https://www.credly.com/badges/1ebd3898-c4ae-44a0-8b05-e4db42ab7f61/public_url" target="_blank" class="certification-card">
+                        <div class="cert-info">
+                            <h3 class="cert-title">AWS Academy Graduate - Cloud Foundations</h3>
+                            <p class="cert-type">Training Badge</p>
+                        </div>
+                        <i class="fas fa-external-link-alt cert-link-icon"></i>
+                    </a>
+
+                    <a href="https://www.credly.com/badges/3c9e8491-1085-4ac3-b3a2-a4a28212d162/public_url" target="_blank" class="certification-card">
+                        <div class="cert-info">
+                            <h3 class="cert-title">AWS Academy Graduate - Cloud Architecting</h3>
+                            <p class="cert-type">Training Badge</p>
+                        </div>
+                        <i class="fas fa-external-link-alt cert-link-icon"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Social Links Section -->
+            <section class="social-section">
+                <div class="social-content">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            <i class="fas fa-share-nodes"></i>
+                            Social Links
+                        </h2>
+                    </div>
+                    <a href="https://www.instagram.com/jonji_/" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.facebook.com/gerarddonaire" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/john-gerard-donaire-b04a522b2/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footnote -->
+    <footer class="footer">
+        <p>&copy; 2025 John Gerard Donaire.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
